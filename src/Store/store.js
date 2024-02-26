@@ -28,31 +28,31 @@
   skill:[
     {
       description: "HTML",
-      image: "public/html.png"
+      image: "assets/html.png"
     },
     {
       description: "CSS",
-      image: "public/logo-2582747_1920.png"
+      image: "assets/logo-2582747_1920.png"
     },
     {
       description: "JAVASCRIPT",
-      image: "public/javascript-736400_1920.png"
+      image: "assets/javascript-736400_1920.png"
     },
     {
       description: "React Js",
-      image: "public/images.png"
+      image: "assets/images.png"
     },
     {
       description: "PYTHON",
-      image: "public/Python_logo_icon.png"
+      image: "assets/Python_logo_icon.png"
     },
     {
       description: "JAVA",
-      image: "public/Java-Logo.png"
+      image: "assets/Java-Logo.png"
     },
     {
       description: "C++",
-      image: "public/download.png"
+      image: "assets/download.png"
     },
   ]
   }
