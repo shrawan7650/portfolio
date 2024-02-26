@@ -1,4 +1,11 @@
 //header Section Data
+import html_image from '../assets/html.png'
+import css_image from '../assets/logo-2582747_1920.png'
+import javascript_image from '../assets/javascript-736400_1920.png'
+import react_image from '../assets/images.png'
+import python_image from '../assets/Python_logo_icon.png'
+import java_image from '../assets/Java-Logo.png'
+import c_image from '../assets/download.png'
  const AllData = 
  {
   header:{
@@ -28,31 +35,31 @@
   skill:[
     {
       description: "HTML",
-      image: "assets/html.png"
+      image: html_image
     },
     {
       description: "CSS",
-      image: "assets/logo-2582747_1920.png"
+      image: css_image
     },
     {
       description: "JAVASCRIPT",
-      image: "assets/javascript-736400_1920.png"
+      image: javascript_image
     },
     {
       description: "React Js",
-      image: "assets/images.png"
+      image: react_image
     },
     {
       description: "PYTHON",
-      image: "assets/Python_logo_icon.png"
+      image: python_image
     },
     {
       description: "JAVA",
-      image: "assets/Java-Logo.png"
+      image: java_image
     },
     {
       description: "C++",
-      image: "assets/download.png"
+      image: c_image
     },
   ]
   }
