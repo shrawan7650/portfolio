@@ -1,0 +1,59 @@
+.nav{
+  height: 13%;
+  width :100%;
+  background-color:purple;
+  display: flex;
+ 
+}
+header{
+  font-size: 28px;
+}
+.info{
+  width: 15%;
+padding: 8px;
+color: white;
+}
+i{
+  margin-right: 10px;
+
+}
+.myinfo{
+  width: 85%;
+  height: 100%;
+}
+ul{
+ align-items: center;
+ display: flex;
+margin-right: 40px;
+ justify-content: end;
+gap: 40px;
+margin-top: 30px;
+list-style-type: none;
+}
+li a{  
+font-size: 20px;
+text-decoration: none;
+color: white; 
+}
+a:hover{
+  color: black;
+
+}
+@media (max-width: 480px) {
+
+  .info{
+display: none;
+  }
+  /* header{
+    display: none;
+  } */
+  .myinfo{
+    width:100%; 
+  }
+ 
+   li a{  
+    font-size: 18px;
+    text-decoration: none;
+    color: white; 
+    }
+}

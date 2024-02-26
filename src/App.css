@@ -1,0 +1,21 @@
+body{
+  margin: 0px;
+  padding: 0px;
+ box-sizing: border-box;  
+ scroll-behavior: smooth;
+}
+.wrapper{
+  width:100% ;
+height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-y:auto ;
+  overflow-x: hidden; 
+  font-weight: 500;   
+}
+.main{
+height: 100vh;
+width: 100vw;
+scroll-behavior: smooth;
+  /* border: 3px solid black; */
+
+}

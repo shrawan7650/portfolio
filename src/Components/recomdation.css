@@ -1,0 +1,119 @@
+.Recomdation{
+  position: relative;
+  top: 12%;
+     width: 100%;
+     height: 60%;
+     margin-top: 20px;    
+ }
+ .heading2{
+     margin-left: 50px;
+     font-size: 60px;
+     color: blue;
+     font-weight: 600;
+ }
+ .recomdation_part{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     margin-top: 40px;
+     gap: 50px;
+     justify-content: center;
+ }
+ .recmadion1{
+   
+     box-sizing: border-box;
+     width: 20%;
+     height: 45%;
+     border: 1px solid black; 
+     text-align: center;
+     padding: 25px ;
+     border-radius: 10px;
+ }
+  .lower{
+    width: 80%;
+    height: 300px;
+  /* border: 2px solid black; */
+    margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+  }
+  .heading3{
+  font-size: 40px;
+  /* margin-right: 350px; */
+  }
+  input[type="text"]{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px solid gray;     
+    margin: 10px;
+  }
+  button{
+  margin-top: 40px;
+    padding: 10px;
+    width: 10%;
+    /* background-color:green; */
+    color:black;
+    cursor: pointer;
+   text-align: center;
+   border-radius: 5px ;
+  box-shadow: 5px 5px 7px #0000003f ;
+outline: none;
+border: none; 
+  }
+  @media (max-width: 480px) {
+    .Recomdation{
+      /* border: 2px solid black; */
+         width: 100%;
+         height: 60%;   
+     }
+     .heading2{
+         font-size: 50px;
+         color: blue;
+         font-weight: 800;
+     }
+     .recomdation_part{
+         width: 100%;
+         height: 50%;
+         display: flex;
+        /* border: 2px solid red; */
+    
+     }
+     .recmadion1{
+         box-sizing: border-box;
+         width: 26%;
+         height: 140%;
+         border: 1px solid black; 
+         text-align: center;
+         padding: 8px ;
+         border-radius: 10px;
+         font-size: 12.5px;
+         font-weight: 900;
+     }
+     input[type="text"]{
+      width: 80%;
+      height: 20px;
+      border-radius: 5px solid gray;     
+      margin: 8px;
+    }
+    button{
+      margin-top: 10px;
+        padding: 10px;
+        width: 30%;
+        /* background-color:green; */
+        color:black;
+        cursor: pointer;
+       text-align: center;
+       border-radius: 5px ;
+      box-shadow: 5px 5px 7px #0000003f ;
+    outline: none;
+    border: none; 
+      }
+    
+  }
